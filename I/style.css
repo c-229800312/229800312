@@ -1,0 +1,117 @@
+@import url( http://fonts.googleapis.com/css?family=Open+Sans:400,300,600,700,800 );
+body {
+	line-height: 24px; font-family: Open Sans; font-size: 14px; -ms-overflow-x: hidden; -webkit-text-size-adjust: 100%; -webkit-font-smoothing: antialiased; -webkit-overflow-scrolling: touch;
+}
+a {
+	transition:0.4s ease-in-out; -webkit-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out;
+}
+.btn {
+	transition:0.4s ease-in-out; -webkit-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out;
+}
+.btn {
+	padding: 6px 15px; border-radius: 0px; font-size: 18px;
+}
+.btn-primary {
+	border-color: rgb(104, 195, 163); background-color: rgb(104, 195, 163);
+}
+.btn-primary:active {
+	border-color: rgb(78, 178, 143); background-color: rgb(78, 178, 143);
+}
+.btn-primary:focus {
+	border-color: rgb(78, 178, 143); background-color: rgb(78, 178, 143);
+}
+.btn-primary:hover {
+	border-color: rgb(78, 178, 143); background-color: rgb(78, 178, 143);
+}
+.section-padding {
+	padding: 100px 0px;
+}
+.header-wrapper {
+	 min-height: 300px;background-color: rgb(204, 242, 252);
+}
+.header-wrapper::before {
+	left: 0px; top: 0px; width: 100%; height: 500px; position: absolute; content: ""; background: url("背景图.jpg") no-repeat;background-position: center;
+}
+.header-intro {
+	padding-top: 280px;
+}
+.header-intro h1 {
+	text-transform: uppercase; font-weight: 300; margin-top: 0px; 
+}
+.intro-desc {
+	text-transform: uppercase; font-size: 30px;
+}
+.feature-section {
+	padding: 80px 0px; background-color:rgb(204, 242, 252);
+}
+.feature-section h2 {
+	margin-bottom:30px;
+}
+.feature-box {
+	margin-bottom: 40px;
+	background: rgb(252, 250, 151); padding: 10px 20px;width: 300px; margin:0 50px
+}
+.feature-box p {
+	margin: 10px 0px 0px; font-size: 25px; 
+}
+.feature-section .row {
+	display: inline-flex
+}
+.feature-section .row img{
+	margin-bottom:5px;
+	width: 400px
+}
+.demo-section {
+	padding-bottom: 150px;
+}
+.demo-thumb img {
+	max-width: 100%;
+}
+.demo-thumb a img {
+	transition:0.4s ease-in-out; -webkit-transition: all .4s ease-in-out; -o-transition: all .4s ease-in-out; -moz-transition: all .4s ease-in-out;
+}
+.demo-thumb a:hover img {
+	opacity: 0.5;
+}
+.footer {
+	padding: 10px 0px; background-color: rgb(73, 200, 231);
+}
+.footer h3 {
+	margin: 0px; color: rgb(15, 1, 1);
+}
+.footer a {
+	color: rgb(104, 195, 163); text-decoration: none;
+}
+.footer a:hover {
+	color: rgb(255, 255, 255);
+}
+@media all and (max-width:479px)
+{
+.btn-large {
+	padding: 15px 20px;
+}
+}
+@media all and (max-width:991px)
+{
+.header-wrapper {
+	min-height: 315px;
+}
+.feature-box {
+	margin-bottom: 30px;
+}
+.thumb-wrapper {
+	margin-bottom: 50px;
+}
+}
+#preloader {
+	background: rgb(48, 27, 27); left: 0px; top: 0px; right: 0px; bottom: 0px; position: fixed; z-index: 9999;
+}
+#status {
+	background-position: center; margin: -100px 0px 0px -100px; left: 50%; top: 50%; width: 200px; height: 200px; position: absolute; background-image: url("assets/images/preloder.gif"); background-repeat: no-repeat;
+}
+.status-mes {
+	background-position: center; margin: -100px 0px 0px -100px; left: 50%; top: 50%; width: 200px; height: 200px; position: absolute; background-image: url("assets/images/preloder.gif"); background-repeat: no-repeat;
+}
+.status-mes {
+	background: 0px 0px; margin: 0px; left: 0px; top: 65%; text-align: center;
+}
